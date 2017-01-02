@@ -1,0 +1,107 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.6.1/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.6.1/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.15.9
+3 info using node@v4.6.1
+4 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc-jams-angular/package.json
+5 verbose install where, deps [ '/home/ubuntu/workspace/bloc-jams-angular',
+5 verbose install   [ 'hapi',
+5 verbose install     'path',
+5 verbose install     'connect-modrewrite',
+5 verbose install     'es5-shim',
+5 verbose install     'grunt',
+5 verbose install     'grunt-cli',
+5 verbose install     'grunt-contrib-clean',
+5 verbose install     'grunt-contrib-copy',
+5 verbose install     'grunt-contrib-watch',
+5 verbose install     'grunt-hapi' ] ]
+6 verbose install where, peers [ '/home/ubuntu/workspace/bloc-jams-angular', [] ]
+7 verbose installManyTop reading for lifecycle /home/ubuntu/workspace/bloc-jams-angular/package.json
+8 info preinstall blocjams@0.0.1
+9 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/connect-modrewrite/package.json
+10 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/es5-shim/package.json
+11 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/grunt/package.json
+12 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/grunt-cli/package.json
+13 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/grunt-contrib-clean/package.json
+14 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/grunt-contrib-copy/package.json
+15 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/grunt-contrib-watch/package.json
+16 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/grunt-hapi/package.json
+17 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/hapi/package.json
+18 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/path/package.json
+19 info package.json connect-modrewrite@0.7.12 No license field.
+20 info package.json grunt-cli@0.1.13 No license field.
+21 info package.json grunt-contrib-clean@0.6.0 No license field.
+22 info package.json grunt-contrib-copy@0.5.0 No license field.
+23 info package.json grunt-contrib-watch@0.6.1 No license field.
+24 info package.json grunt-hapi@0.8.1 No license field.
+25 info package.json hapi@7.5.3 No license field.
+26 info package.json path@0.4.10 path is also the name of a node core module.
+27 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc-jams-angular/package.json
+28 verbose targetResolver reading package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/connect-modrewrite/package.json
+29 verbose targetResolver reading package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/es5-shim/package.json
+30 verbose targetResolver reading package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/grunt/package.json
+31 verbose targetResolver reading package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/grunt-cli/package.json
+32 verbose targetResolver reading package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/grunt-contrib-clean/package.json
+33 verbose targetResolver reading package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/grunt-contrib-copy/package.json
+34 verbose targetResolver reading package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/grunt-contrib-watch/package.json
+35 verbose targetResolver reading package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/grunt-hapi/package.json
+36 verbose targetResolver reading package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/hapi/package.json
+37 verbose targetResolver reading package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/path/package.json
+38 verbose targetResolver reading package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/.bin/grunt/package.json
+39 verbose targetResolver reading package data from /home/ubuntu/workspace/bloc-jams-angular/node_modules/.bin/hapi/package.json
+40 verbose already installed skipping grunt-contrib-copy@~0.5.0 /home/ubuntu/workspace/bloc-jams-angular
+41 verbose already installed skipping grunt-contrib-watch@^0.6.1 /home/ubuntu/workspace/bloc-jams-angular
+42 verbose already installed skipping grunt-hapi@^0.8.1 /home/ubuntu/workspace/bloc-jams-angular
+43 verbose already installed skipping hapi@~7.5.0 /home/ubuntu/workspace/bloc-jams-angular
+44 verbose already installed skipping path@^0.4.9 /home/ubuntu/workspace/bloc-jams-angular
+45 verbose already installed skipping connect-modrewrite@^0.7.9 /home/ubuntu/workspace/bloc-jams-angular
+46 verbose already installed skipping es5-shim@^4.0.1 /home/ubuntu/workspace/bloc-jams-angular
+47 verbose already installed skipping grunt@^1.0.1 /home/ubuntu/workspace/bloc-jams-angular
+48 verbose already installed skipping grunt-cli@^0.1.13 /home/ubuntu/workspace/bloc-jams-angular
+49 verbose already installed skipping grunt-contrib-clean@~0.6.0 /home/ubuntu/workspace/bloc-jams-angular
+50 silly install resolved []
+51 info build /home/ubuntu/workspace/bloc-jams-angular
+52 info linkStuff blocjams@0.0.1
+53 silly linkStuff blocjams@0.0.1 has /home/ubuntu/workspace as its parent node_modules
+54 verbose linkBins blocjams@0.0.1
+55 verbose linkMans blocjams@0.0.1
+56 verbose rebuildBundles blocjams@0.0.1
+57 verbose rebuildBundles [ '.bin',
+57 verbose rebuildBundles   'connect-modrewrite',
+57 verbose rebuildBundles   'es5-shim',
+57 verbose rebuildBundles   'grunt',
+57 verbose rebuildBundles   'grunt-cli',
+57 verbose rebuildBundles   'grunt-contrib-clean',
+57 verbose rebuildBundles   'grunt-contrib-copy',
+57 verbose rebuildBundles   'grunt-contrib-watch',
+57 verbose rebuildBundles   'grunt-hapi',
+57 verbose rebuildBundles   'hapi',
+57 verbose rebuildBundles   'path' ]
+58 info install blocjams@0.0.1
+59 info postinstall blocjams@0.0.1
+60 info prepublish blocjams@0.0.1
+61 verbose validateInstall loading /home/ubuntu/workspace/bloc-jams-angular/package.json for validation
+62 verbose stack Error: The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+62 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/lib/install.js:125:32
+62 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/lib/install.js:268:7
+62 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+62 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+62 verbose stack     at cb (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+62 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+62 verbose stack     at cb (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+62 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+62 verbose stack     at cb (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+62 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+63 verbose cwd /home/ubuntu/workspace/bloc-jams-angular
+64 error Linux 4.2.0-c9
+65 error argv "/home/ubuntu/.nvm/versions/node/v4.6.1/bin/node" "/home/ubuntu/.nvm/versions/node/v4.6.1/bin/npm" "install"
+66 error node v4.6.1
+67 error npm  v2.15.9
+68 error code EPEERINVALID
+69 error peerinvalid The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+69 error peerinvalid Peer grunt-contrib-copy@0.5.0 wants grunt@~0.4.0
+69 error peerinvalid Peer grunt-hapi@0.8.1 wants grunt@~0.4.5
+69 error peerinvalid Peer grunt-contrib-clean@0.6.0 wants grunt@~0.4.0
+69 error peerinvalid Peer grunt-contrib-watch@0.6.1 wants grunt@~0.4.0
+70 verbose exit [ 1, true ]
