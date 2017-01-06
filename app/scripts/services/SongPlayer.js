@@ -15,6 +15,13 @@
           * @param {Object} song
           */
 
+
+          /**
+          *@function getSongIndex
+          *@desc returns index of song in current album
+          @param {Object} song
+          */
+
           var getSongIndex = function(song) {
               return currentAlbum.songs.indexOf(song);
           };
@@ -40,8 +47,7 @@
 
           var setSong = function(song) {
              if (currentBuzzObject) {
-                 currentBuzzObject.stop();
-                 SongPlayer.currentSong = null;
+                 stopSong(SongPlayer.currentSong);
              }
 
              currentBuzzObject = new buzz.sound(song.audioUrl, {
@@ -52,6 +58,17 @@
 // Set newly selected song as the currentSong
              SongPlayer.currentSong = song;
           };
+
+          /**
+          *@function stopSong
+          *@desc stops the current song
+          *@param {Object} song
+          */
+
+          var stopSong = function(song) {
+            currentBuzzObject.stop();
+            song.playing = null;
+          }
 
           /**
           *@function playSong
@@ -104,14 +121,30 @@
               currentSongIndex--;
 
               if (currentSongIndex < 0) {
-                  currentBuzzObject.stop();
-                  SongPlayer.currentSong.playing = null;
+                  stopSong(SongPlayer.currentSong);
               } else {
                   var song = currentAlbum.songs[currentSongIndex];
                   setSong(song);
                   playSong(song);
               }
 
+          };
+
+          /**
+          *@function next
+          *@desc plays the next song
+          */
+          SongPlayer.next = function() {
+              var currentSongIndex = getSongIndex(SongPlayer.currentSong);
+              currentSongIndex++;
+
+              if (currentSongIndex > currentAlbum.songs.length) {
+                  stopSong(SongPlayer.currentSong);
+              } else {
+                  var song = currentAlbum.songs[currentSongIndex];
+                  setSong(song);
+                  playSong(song);
+              }
           };
 
           return SongPlayer;
