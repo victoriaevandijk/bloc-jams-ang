@@ -39,6 +39,7 @@
            */
            
           SongPlayer.volume = null;
+          SongPlayer.volume = 80;
 
           /**
           *@desc Buzz object audio file
@@ -170,6 +171,8 @@
             if (currentBuzzObject) {
               currentBuzzObject.setVolume(volume);
             }
+            
+            songPlayer.volume = volume;
           };
           
           /**
